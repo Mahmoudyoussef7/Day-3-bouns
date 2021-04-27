@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>registration page</title>
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0%;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 24px;
+            font-weight: bold;
+            font-style: inherit;
+            background-color: #E7E9EB;
+        }
+
+        input[type="text"],
+        input[type="password"],
+        input[type="email"] {
+            width: 68%;
+            background-color: #f1f1f1;
+            padding: 15px;
+            margin-top: 5%;
+            display: inline-block;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 15px;
+            font-weight: bold;
+            font-style: inherit;
+        }
+
+        div {
+            background-color: rgb(180, 228, 147);
+            width: 400px;
+            height: 500px;
+            margin: auto;
+            margin-top: 5%;
+            padding: auto;
+            border-radius: 10px;
+        }
+
+        form img {
+            margin-left: 10px;
+            position: relative;
+            height: auto;
+            margin-top: 0px;
+            vertical-align: middle;
+
+        }
+
+        #btn {
+            background-color: rgb(8, 116, 49);
+            border-radius: 10px;
+            width: 50%;
+            margin: 10% 26%;
+            padding: 8px 0;
+            cursor: pointer;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18pt;
+            font-weight: bold;
+            color: #FFFF;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <img src="resources/index.png" alt="w3school" width="300px" height="100px" style="margin-left:12%;">
+        <form action="" method="get">
+            <img src="resources/user-icon.png" alt="user" width="40px" height="50px">
+            <input type="text" name="username" placeholder="Username" required>
+            <img src="resources/Mail-icon.png" alt="mail" width="40" height="50px">
+            <input type="email" name="mail" placeholder="Email" required>
+            <img src="resources/pass-icon.png" alt="password" width="40px" height="50px">
+            <input type="password" name="pass" placeholder="Password" required>
+            <img src="resources/pass-icon.png" alt="password" width="40px" height="50px">
+            <input type="password" name="pass" placeholder="Re-type Password" required>
+            <input type="submit" value="Register Now" id="btn">
+
+        </form>
+    </div>
+</body>
+
+</html>

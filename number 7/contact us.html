@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>contact us</title>
+    <meta charset="utf-8">
+    <style>
+        body,
+        html {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            background-color: #f1f1f1;
+        }
+
+        .container {
+
+            display: inline-block;
+            width: 45%;
+            position: absolute;
+        }
+
+        input[type=text],
+        select,
+        textarea {
+            width: 80%;
+            padding: 15px;
+            margin: 0% 10%;
+            display: inline-block;
+            border: none;
+            background: #ffff;
+        }
+
+        .registerbtn {
+            background-color: #4CAF50;
+            color: #ffffff;
+            border-radius: 8px;
+            padding: 2% 20px;
+            margin: 0% 34%;
+            border: none;
+            cursor: pointer;
+            width: 30%;
+            height: auto;
+            opacity: 1;
+            font-size: 20px;
+
+        }
+
+        a {
+            color: dodgerblue;
+        }
+
+        #contact {
+            width: 100%;
+            margin: 0%;
+            height: auto;
+            text-align: center;
+        }
+
+        label {
+            position: relative;
+            display: inline-block;
+            margin: 0% 10%;
+            width: 15%;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="contact">
+        <h2>Contact Us</h2>
+        <p>swing by for acup of coffe , or leave us message</p>
+    </div>
+    <img src="Simple-Location-Picker.webp" alt="map" style="margin: 3% 5%;">
+    <div class="container">
+        <form action="Thankyou.html" method="GET" id="aa">
+
+            <input type="hidden" name="userID" id="uid"><br>
+            <label for="fname">First name</label>
+            <input type="text" name="Firstname" id="fname" required>
+            <label for="lname">Last name</label>
+            <input type="text" name="Lastname" id="lname" required>
+            <br><br>
+            <label for="country">country</label>
+            <select id="country" name="country">
+                <option value="egypt">egypt</option>
+                <option value="usa">USA</option>
+                <option value="mali">mali</option>
+            </select><br><br>
+            <label for="subject">subject</label><br><br>
+            <textarea name="subject" id="subject" cols="30" rows="10" placeholder="write something"></textarea><br><br>
+
+            <input type="submit" value="submit" class="registerbtn"> &nbsp;&nbsp;
+
+        </form>
+    </div>
+
+</body>
+
+</html>
